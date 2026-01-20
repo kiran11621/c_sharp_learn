@@ -10,7 +10,8 @@ namespace C_
     {
         public void Example()
         {
-
+            Stack<string> stack = new Stack<string>();
+            
         }
     }
 }
