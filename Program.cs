@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using C_;
+using C1;
 using System.ComponentModel.DataAnnotations;
 
 Console.WriteLine("Hello, World!");
@@ -36,5 +37,15 @@ Console.WriteLine("Hello, World!");
 //OOPSExample o = new OOPSExample();
 //o.Example();
 
-ClassObject c = new ClassObject();
-c.method();
+//ClassObject c = new ClassObject();
+//c.method();
+
+//AMain a = new AMain(name: "kiran");
+//a.main();
+
+//EventsExampl eventsExampl = new EventsExampl();
+//eventsExampl.Main();
+
+//ThreadingExample.Main();
+
+IncrementClass.Increment(); 

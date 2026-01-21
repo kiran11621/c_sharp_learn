@@ -27,6 +27,37 @@ namespace C_
         {
             example.Show();
         }
+
+       
+    }
+
+
+
+    public class Animal
+    {
+        public string Name;
+
+        public Animal(string name) {
+            this.Name = name;
+        }
+
+        public void Eat()
+        {
+            Console.WriteLine(Name);
+        }
+    }
+
+    public class Dog : Animal
+    {
+        public Dog(string name) : base(name)
+        {
+
+        }
+
+        public void Bark()
+        {
+            Console.WriteLine("Bark");
+        }
     }
 
 
